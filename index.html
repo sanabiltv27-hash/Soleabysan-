@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOLEABYSAN — Luxury Heels</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="logo">SOLEABYSAN</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div>
+    <p class="eyebrow">LUXURY FOOTWEAR</p>
+    <h1>Walk in your<br><span>own statement.</span></h1>
+    <p class="intro">Elegant heels designed for a bold, polished look.</p>
+    <a class="button" href="#shop">Shop Collection</a>
+  </div>
+</section>
+
+<section class="shop" id="shop">
+  <p class="eyebrow">THE COLLECTION</p>
+  <h2>Featured Heels</h2>
+  <div class="products">
+    <article class="card">
+      <div class="shoe-placeholder">HEEL<br>01</div>
+      <h3>Black Signature Heel</h3>
+      <p>Elegant black statement heel</p>
+      <strong>Rs. 8,999</strong>
+      <button onclick="order('Black Signature Heel')">Order Now</button>
+    </article>
+    <article class="card">
+      <div class="shoe-placeholder">HEEL<br>02</div>
+      <h3>Golden Muse Heel</h3>
+      <p>Classic heel with a luxury finish</p>
+      <strong>Rs. 9,499</strong>
+      <button onclick="order('Golden Muse Heel')">Order Now</button>
+    </article>
+    <article class="card">
+      <div class="shoe-placeholder">HEEL<br>03</div>
+      <h3>Midnight Stiletto</h3>
+      <p>Sleek, timeless evening style</p>
+      <strong>Rs. 10,999</strong>
+      <button onclick="order('Midnight Stiletto')">Order Now</button>
+    </article>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <p class="eyebrow">ABOUT SOLEABYSAN</p>
+  <h2>Luxury, made to stand out.</h2>
+  <p>SOLEABYSAN is a fashion footwear concept focused on elegant heels, clean design and a premium shopping experience.</p>
+</section>
+
+<section class="contact" id="contact">
+  <p class="eyebrow">CONTACT</p>
+  <h2>Ready to order?</h2>
+  <p>Replace the button below with your WhatsApp number or Instagram link.</p>
+  <a class="button" href="https://wa.me/" target="_blank">WhatsApp Us</a>
+</section>
+
+<footer>© 2026 SOLEABYSAN. All rights reserved.</footer>
+<script>
+function order(product) {
+  alert("Order selected: " + product + "\nAdd your WhatsApp number in the website code to receive orders.");
+}
+</script>
+</body>
+</html>
